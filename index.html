@@ -6,16 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Plain Text Editor</title>
 
+    <!-- jQuery Modal -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
     <!-- Plain Text Editor Plugin -->
     <link rel="stylesheet" href="./lib/jquery.plain-text-editor.css">
 
-    <!-- jQuery Modal -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    
 </head>
 <body>
     <h1 class='pte'>This is a header</h1>
     <p class='pte'>This is a Paragrah</p>
+
     
+    <div id="ex1" class="modal">
+        <p>Thanks for clicking. That felt good.</p>
+        <a href="#" rel="modal:close">Close</a>
+    </div>
+
     <!-- jQuery 3.4.1 -->
     <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
